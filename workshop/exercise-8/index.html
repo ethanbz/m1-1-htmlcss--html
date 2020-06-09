@@ -1,15 +1,27 @@
+<!-- ...crickets... -->
 <!DOCTYPE html>
 <html>
-  <head>
-    <link href="style.css" rel="stylesheet" />
-  </head>
+    <body>
+        <h1>Registration form</h1>
+        <form>
+            Username<input type="text" required>password<input type="password" required><br>Email<input type="text" required><br>
+            Which taxi do you require?<br>
+            <label><input type="radio" name="taxi" required >Car</label><br>
+            <label><input type="radio" name="taxi" required >Van</label><br>
+            <label><input type="radio" name="taxi" required >Tuk Tuk</label><br>
+            Extras<br>
+            <label><input type="checkbox">Baby Seat</label><br>
+            <label><input type="checkbox">Wheelchair access</label><br>
+            <label><input type="checkbox">Stock Tip</label><br>
+            Pickup<select>
+                    <option value="">Select One</option>
+                    <option>Taxi Office</option>
+                    <option>Town Hall</option>
+                    <option>We'll guess!</option>
+                </select><br>
+            Special<textarea></textarea><br>
+            <button>Submit</button>
 
-  <body>
-    <div class="container">
-      <img class="img1" src="imgs/alpaca.jpg" />
-      <img class="img2" src="imgs/cat.jpg" />
-      <img class="img3" src="imgs/dog.jpg" />
-      <img class="img4" src="imgs/whale.jpg" />
-    </div>
-  </body>
+        </form>
+    </body>
 </html>
